@@ -1,5 +1,5 @@
 const filterByType = (type, ...values) => values.filter(value => typeof value === type),
-
+asdsad
 	hideAllResponseBlocks = () => {
 		const responseBlocksArray = Array.from(document.querySelectorAll('div.dialog__response-block'));
 		responseBlocksArray.forEach(block => block.style.display = 'none');
